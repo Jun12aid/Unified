@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio by JD</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <sricpt src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></sricpt> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/f6452d7b8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <!-- <img src="img.png" alt=""> -->
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+            </nav>
+            <div class="header-text">
+                <p>Website Designer</p>
+                <h1>Hi, I am <span>J</span>unai<span>D</span><br> From Mumbai</h1>
+                <div class="text">And I'am a <span class="typing"></span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./photo.png" alt="" class="src">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I’m a recent graduate with a Bachelor's degree in Computer Science and Engineering, driven by a
+                        strong interest in the fields of Web Development and Data Science. Throughout my academic
+                        journey, I’ve developed a deep understanding of both domains, blending problem-solving with
+                        creativity and analytical thinking.
+                        I enjoy building web-based solutions that are both functional and user-centric, while also
+                        exploring data to uncover patterns and drive meaningful insights. As a fresher, I’m eager to
+                        apply my knowledge to real-world challenges, grow in a dynamic work environment, and contribute
+                        to impactful projects that make a difference.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine Learning/Deep Learning/NLP/LLM</span></li><br>
+                            <li><span>HTML/CSS/JS,MERN Stack(MongoDb,Express.js,React.js,Node.js)/Next.js</span></li><br>
+                            <li><span>Java/Python/C-(Programming)</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>TajEducation College Website - <a
+                                        href="https://tajeducation.github.io/.com/">Link</a> </span><br>
+                                1) Developed a responsive website with an intuitive Home Page, showcasing the
+                                institution’s
+                                mission and offerings.<br>
+                                2) Designed structured sections for Staff, Courses, and Blogs, ensuring easy navigation
+                                and accessibility.<br>
+                                3) Integrated a functional Contact Section with a user-friendly form for seamless
+                                communication.</li> <br>
+                            <li><span>Dataset for Disease Prediction Model</span><br>
+                                1) Compiled and processed a structured dataset by integrating multiple Excel files
+                                sourced from a Hoverd database.<br>
+                                2) Automated data cleaning and transformation to ensure consistency, accuracy, and
+                                usability for analysis.<br>
+                                3) Optimized dataset organization for efficient retrieval, enhancing data accessibility
+                                and processing speed.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B. Tech in Computer Science & Engineering from
+                                    N.K. Orchid College of Engineering and Technology</span><br>7.88 CGPA till 7th sem</li>
+                            <li><span>HSC Jr College Education in Science from 
+St Mary Convent High School and Jr College</span><br>91.01%</li>
+                            <li><span>High School Education from
+Abdullah Patel High School and Jr College</span><br>78.80</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Design and develop responsive, user-friendly websites and web applications tailored to your business needs. Expertise in both frontend and backend technologies for full-stack solutions.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Data Science</h2>
+                    <p>Unlock insights from data using advanced analytics, machine learning, and visualization techniques. Transform raw data into actionable strategies for smarter decision-making.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Java/Python/C-(Programming)</h2>
+                    <p>Custom software development using languages like Python, JavaScript, Java, C++, and more. Build robust, scalable solutions optimized for performance and maintainability.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>ChatBox</h3>
+                        <p>A real-time messaging application built using HTML, CSS, JavaScript, and
+PHP. Users can create accounts, send and receive messages, and view chat history.<br>
+below is the link of github repository of this project. 
+                        </p>
+                        <a href="https://github.com/Jun12aid/WEB-project/tree/main/Chatbox"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Expense Spliter</h3>
+                        <p>• Splitter is a Full Stack Expense Splitting App built with Next.js, React.js, and Tailwind CSS,
+featuring AI insights for smart expense management.
+• It includes real-time payment updates, user authentication via Clerk, and uses Convex for
+database operations.
+• Users can manage individual and group expenses, settle debts, and customize the interface.
+                        </p>
+                        <a href="https://github.com/Jun12aid/Next.js-Projects/tree/master/splitter"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>URL Shortner</h3>
+                        <p>URL Shortener is a modern web application built with React.js, Tailwind CSS, ShadCN UI, and Supabase. It allows users to shorten long URLs into compact, shareable links with real-time analytics. Supabase handles authentication and database storage, while ShadCN provides a sleek, responsive UI for seamless user experience.
+                        </p>
+                        <a href="https://github.com/Jun12aid/React.js-Projects/tree/main/URL-Shortner"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-4.jpg" alt="">
+                    <div class="layer">
+                        <h3>Face And Iris Detection Using Deep Learning</h3>
+                        <p>Face and iris detection using deep learning leverages CNNs to accurately identify facial
+features and iris patterns, enabling secure authentication and real-time biometric
+applications.
+                        </p>
+                        <a href="https://github.com/Jun12aid/face-detection"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-4.jpg" alt="">
+                    <div class="layer">
+                        <h3>Multiple Health Disease Predictions</h3>
+                        <p>Machine learning analyzes large patient datasets to predict diseases like diabetes, heart
+disease, and Parkinson's, helping healthcare professionals uncover patterns and risk factors
+for improved outcomes.
+                        </p>
+                        <a href="https://github.com/Jun12aid/ML-projects/tree/main/desease%20project"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-4.jpg" alt="">
+                    <div class="layer">
+                        <h3>Potato Health Detection</h3>
+                        <p>A deep learning project uses advanced image processing to detect potato crop health from
+leaf and crop images, offering timely insights for better crop management and yield.
+                        </p>
+                        <a href="https://github.com/Jun12aid/potato-health-detection"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>junaidshaikh120303@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 8591661674</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/junaid-shaikh-373a3b245"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="./Junaid Shaikh_Resume 2025.pdf" download class="btn btn2"> <i
+                            class="fa-solid fa-folder-arrow-down"></i> Download Your CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Junaid. Made <i class="fa-solid fa-heart"></i> By JD</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyKnikpTy7p7cFf0_m9_uS50yoGmw4Fmxj8bxPx8RQlV0_CcXBV_y1xXkKv4X9JaIc_mg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["Web Developer", "Programmer", "Data Scientist"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+    <script>
+        let darkModeIcon = document.querySelector('#darkMode-icon');
+
+        darkModeIcon.onclick = () => {
+            darkModeIcon.classList.toggle('bx-sun');
+        }
+    </script>
+</body>
+
+</html>
