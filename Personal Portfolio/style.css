@@ -132,7 +132,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #fff569;
-    font-size: 14px;
+    font-size: 13px;
 }
 .tab-contents{
     display: none;
@@ -334,6 +334,10 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
+    .header-text .text{
+    font-size: 35px;
+    font-weight: bold;
+}
     nav .fas{
         display: block;
         font-size: 25px;
@@ -370,6 +374,7 @@ nav .fas{
     }
     .about-col-2{
         font-size: 14px;
+        /* width: 12px; */
     }
     .tab-links{
         font-size: 16px;
